@@ -1,0 +1,72 @@
+<style>
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Bitter');
+  @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+  @import url('https://fonts.googleapis.com/css?family=Chivo');
+  @import url('https://fonts.googleapis.com/css?family=Cousine');
+
+
+  div.cell{ width:auto;}
+
+  div#notebook-container.container { width: 90%;}
+
+  #notebook-container { background-color: #fdfdfd;}
+
+
+
+  div.text_cell_render h1,
+  div.text_cell_render h2,
+  div.text_cell_render h3,
+  div.text_cell_render h4,
+  div.text_cell_render h5,
+  div.text_cell_render h6 {
+      font-family: Chivo;
+      font-weight: 900;
+      color: #cc3700;
+      letter-spacing: 1px;
+  }
+
+  div.text_cell_render p, div.text_cell_render li {
+    font-family: Chivo;
+    font-size: 16px;
+  }
+
+
+
+
+
+  .CodeMirror {
+    //background-color: #166066;
+      background-image: linear-gradient(to bottom, hsl(200, 100%, 7%), hsl(200, 100%, 12%));
+
+    color: white;
+    -webkit-filter: drop-shadow(2px 2px rgba(0,0,0,.1));
+
+  }
+
+  .CodeMirror pre{
+    font-family: Cousine;
+    font-size: 10pt;
+  }
+
+  .CodeMirror-lines { padding: 10px 20px 10px 20px;}
+
+  .cm-s-ipython span.cm-keyword { color: #e3655b;}
+
+  .cm-s-ipython span.cm-def { color: #fff9c4;}
+
+  .cm-s-ipython span.cm-variable { color: #E5ECEA;}
+
+  .cm-s-ipython span.cm-string { color: #33A1C9;}
+
+  .cm-s-ipython span.cm-builtin { color: #2ecc40;}
+
+  .cm-s-ipython span.cm-comment { color: #9B8065;}
+
+
+
+    
+</style>
